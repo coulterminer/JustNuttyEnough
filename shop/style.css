@@ -20,8 +20,9 @@ html {
   text-decoration: underline;
   font-size: large;
   padding: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-family: 'Roboto', sans-serif;
-  padding-left: 10px; 
   border-radius: 10px;
 }
 
@@ -31,6 +32,8 @@ html {
   animation-fill-mode: forwards; /* Fixes animation reset */
 }
 
+
+
 .content{
   margin: auto;
   text-align:center;
@@ -38,6 +41,14 @@ html {
   max-width: max-content;
   padding: 40px;
   border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.price_content{
+  margin: auto;
+  text-align:center;
+  min-width: min-content;
+  max-width: max-content;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -56,6 +67,28 @@ html {
   background-color: #caf0fe;
 }
 
+.item>button{
+  border: none;
+}
+
+.item>input{
+}
+
 .item:hover{
   background-color: #94e3fe
+}
+
+.tp{
+  border-radius: 3px;
+  margin-top: 3%;
+  padding: 10px;
+}
+
+.totalprice{
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 30%;
+  height: 20%;
+  text-align: center;
 }
