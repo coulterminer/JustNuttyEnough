@@ -3,6 +3,18 @@
   to {background-color: #fff2d5;};
 }
 
+@keyframes anim_slide_in {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -20,8 +32,9 @@ html {
   text-decoration: underline;
   font-size: large;
   padding: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-family: 'Roboto', sans-serif;
-  padding-left: 10px; 
   border-radius: 10px;
 }
 
@@ -30,6 +43,7 @@ html {
   animation-duration: 0.35s;
   animation-fill-mode: forwards; /* Fixes animation reset */
 }
+
 
 .content{
   margin: auto;
@@ -44,4 +58,5 @@ html {
 .title{
   text-align: center;
   font-family: 'Pacifico', cursive;
+  animation: anim_slide_in 2s ease 0s 1 normal forwards;
 }
