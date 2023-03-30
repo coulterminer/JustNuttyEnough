@@ -56,6 +56,18 @@ html {
 }
 
 .title{
+  margin: auto;
+  margin-top: 20%;
+  width: max-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 3px #333 solid;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  animation: anim_slide_in 2s ease 0s 1 normal forwards;
+}
+
+.con_title{
   text-align: center;
   font-family: 'Pacifico', cursive;
   animation: anim_slide_in 2s ease 0s 1 normal forwards;

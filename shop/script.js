@@ -21,6 +21,12 @@ let tp_3 = document.getElementById("tp_3");
 let tp_4 = document.getElementById("tp_4");
 let tp = document.getElementById("tp")
 
+let p1 = document.getElementById("p1")
+let p2 = document.getElementById("p2")
+let p3 = document.getElementById("p3")
+let p4 = document.getElementById("p4")
+
+
 /* function getCookie(cookieName) { // coookie monster :[] < --- NOM NOM NOM
   var cookies = document.cookie.split(';');
   for(var i = 0; i < cookies.length; i++) {
@@ -46,6 +52,11 @@ window.onload = function(){
   item2_num.value = item2_cart;  // the display values of how much
   item3_num.value = item3_cart;  // is in your cart when the site is
   item4_num.value = item4_cart;  // loaded!
+
+  p1.textContent = "$" + item1_price + ".00";
+  p2.textContent = "$" + item2_price + ".00";
+  p3.textContent = "$" + item3_price + ".00";
+  p4.textContent = "$" + item4_price + ".00";
 }
 
 /* function parse_cookie_string(inputString) {
