@@ -72,3 +72,14 @@ html {
   font-family: 'Pacifico', cursive;
   animation: anim_slide_in 2s ease 0s 1 normal forwards;
 }
+
+.instagram{
+  margin: auto;
+  margin-top: 0.5%;
+  width: max-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  animation: anim_slide_in 2s ease 0s 1 normal forwards;
+}
