@@ -1,6 +1,6 @@
 @keyframes topbar_in{
-  from {background-color: #ffb5af;}
-  to {background-color: #fff2d5;};
+  from {background-color: #ffb5af; opacity: 0;}
+  to {background-color: #fff2d5; opacity: 100;};
 }
 
 @keyframes anim_slide_in {
@@ -71,6 +71,46 @@ html {
   text-align: center;
   font-family: 'Pacifico', cursive;
   animation: anim_slide_in 2s ease 0s 1 normal forwards;
+}
+
+.forms{
+  margin: auto;
+  height: 80%;
+  min-width: min-content;
+  max-width: fit-content;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.forms-box>p3{
+  float: left;
+  padding-bottom: -5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit{
+  margin-top: 5%;
+  padding: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+  border: none;
+  background-color: #ffb5af;
+  border-radius: 10px;
+  color: black;
+}
+
+.con_title>svg:hover{
+  fill: #ffb5af;
+}
+
+.con_title>img:hover{
+  fill: #ffb5af;
 }
 
 .instagram{
