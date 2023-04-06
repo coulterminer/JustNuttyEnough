@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="application-name" content="JustNuttyEnough">
+  <title>JustNuttyEnough | Shop</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="topbar" style="margin-bottom: 10px;">
+      <a style="color: black; font-family: 'Pacifico', cursive;" href="/index.html">JustNuttyEnough</a>
+      <a>Shop</a>
+      <a style="float: right;">Contact Us</a>
+  </div>
+
+  <div class="title">
+    <h1>Our Products</h1>
+  </div>
+
+  <div class="content">
+    <div class="item">
+      <img>
+      <hr>
+      <h>St. Joseph Peak Mountain Mix</h>
+      <br>
+      <button onclick="subfromcart(1)">-</button>
+      <input type="number" id="item1_num" style="width: 20%;">
+      <button onclick="addtocart(1)">+</button>
+      <code id="tp_1">0.00</code>
+    </div>
+    <div class="item">
+      <img>
+      <hr>
+      <h>Summer Mix</h>
+      <br>
+      <button onclick="subfromcart(2)">-</button>
+      <input type="number" id="item2_num" style="width: 20%;">
+      <button onclick="addtocart(2)">+</button>
+      <code>$</code>
+      <code id="tp_2">0.00</code>
+    </div>
+
+    <div class="item">
+      <img>
+      <hr>
+      <h>Saturday Morning</h>
+      <br>
+      <button onclick="subfromcart(3)">-</button>
+      <input type="number" id="item3_num" style="width: 20%;">
+      <button onclick="addtocart(3)">+</button>
+      <code>$</code>
+      <code id="tp_3">0.00</code>
+    </div>
+
+    <div class="item">
+      <img>
+      <hr>
+      <h>Pharoplex Movie Theater</h>
+      <br>
+      <button onclick="subfromcart(4)">-</button>
+      <input type="number" id="item4_num" style="width: 20%;">
+      <button onclick="addtocart(4)">+</button>
+      <code>$</code>
+      <code id="tp_4">0.00</code>
+    </div>
+
+    <div class="item">
+      <h3>Total Price</h3>
+      <hr>
+      <code>$</code>
+      <code class="tp" id="tp">0.00</code>
+    </div>
+  </div>
+
+
+  
+  <script src="script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJT5EK96EJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RJT5EK96EJ');
+  </script>
+</body>
+
+</html>
